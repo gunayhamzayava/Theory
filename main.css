@@ -226,7 +226,7 @@ header {
 }
 
 #about {
-  height: 40rem;
+  min-height: 40rem;
   margin: 4rem 0;
 }
 
@@ -286,8 +286,15 @@ header {
 
 footer {
   height: 5rem;
+  width: 100%;
   margin: 2rem 0;
   display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+footer .foot {
+  border-top: 1px solid rgba(112, 112, 112, 0.6352941176);
+  padding-top: 2rem;
 }
 footer i {
   color: #5385C1;
@@ -408,6 +415,8 @@ footer .copyright a {
     width: 100%;
   }
   footer {
-    height: 100%;
+    min-height: 10rem;
+    height: auto;
+    margin-top: 4rem;
   }
 }/*# sourceMappingURL=main.css.map */
